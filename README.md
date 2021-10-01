@@ -1,9 +1,9 @@
 ## setup
 
-python -m venv .venv
-`source .venv/Scripts/activate` for windows
-`source .venv\bin\activate` for linux
-pip install -r requirements.txt
+- python -m venv .venv
+- `source .venv/Scripts/activate` for windows
+- `source .venv\bin\activate` for linux
+- `pip install -r requirements.txt`
 
 ## console tests
 
@@ -27,4 +27,5 @@ bc.is_chain_valid()
 
 ## fastapi
 
-`uvicorn main:app --reload`
+- `uvicorn main:app --reload`
+- visit: http://localhost:8000/docs
